@@ -356,7 +356,8 @@ switch (command) {
 	
 	Note : Fitur Masih Dikit Karena Baru Jadi
 	Next Update Bakal Di Tambahin
-	Jangan Lupa Subscribe Zero YT7
+	SEWA BOT KETIK #OWNER
+
 `
 zeroyt7.sendMessage(from, menunya, text, {quoted: ftrol})
 	break
@@ -732,7 +733,7 @@ vcard2 = 'BEGIN:VCARD\n'
 zeroyt7.sendMessage(from, {displayName: `Creator ${ownername}`, vcard: vcard2}, contact, 
 { quoted: ftrol, 
 })
-reply('TUHH NOMER OWNER KU')
+reply('TUHH NOMER OWNER KU JANGAN DISPAM')
 break
 case 'bc':
 if (!isOwner) return reply('LU BUKAN OWNER GBLOK')
